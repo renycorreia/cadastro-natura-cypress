@@ -1,0 +1,20 @@
+{
+  "name": "avaliacao-tecnica-natura",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test:aesop": "cypress run --config baseUrl=https://www.aesop.com.br/",
+    "test:natura": "cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "gerador-validador-cpf": "^5.0.2"
+  }
+}

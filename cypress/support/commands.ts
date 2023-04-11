@@ -1,6 +1,6 @@
 Cypress.Commands.add('criarUsuario', usuario => {
   cy.wait(3000)
-  
+
   cy.get('input[name="firstName"]')
     .type(usuario.firstName)
 

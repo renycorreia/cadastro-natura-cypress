@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "cy:open": "cypress open",
+    "cy:open:aesop": "cypress open --config baseUrl=https://www.aesop.com.br/",
     "test:aesop": "cypress run --config baseUrl=https://www.aesop.com.br/",
     "test:natura": "cypress run"
   },
@@ -12,6 +13,7 @@
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "cypress": "^12.9.0",
+    "mochawesome": "^7.1.3",
     "typescript": "^5.0.4"
   },
   "dependencies": {
